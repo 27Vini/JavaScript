@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import Btn from './components/Btn'
 import './App.css';
 import Header from './components/Header'
 import Nav from './components/Nav'
@@ -13,6 +13,7 @@ function App() {
       <Nav />
       <Intro1 />
       <Intro2 />
+      <Btn />
       <Footer />
     </div>
   )
